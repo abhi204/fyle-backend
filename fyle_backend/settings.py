@@ -75,11 +75,14 @@ WSGI_APPLICATION = 'fyle_backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'bt6bup2flufvppotkckn',
+        'USER': 'uesokwxl58apbfa578v5',
+        'PASSWORD': 'qUGdLRgCxfryfSrGKkjS',
+        'HOST': 'bt6bup2flufvppotkckn-postgresql.services.clever-cloud.com',
+        'PORT': '5432',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
