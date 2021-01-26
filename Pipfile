@@ -9,6 +9,7 @@ django-rest-framework = "*"
 psycopg2-binary = "*"
 django-cors-headers = "*"
 django-filter = "*"
+whitenoise = "*"
 
 [dev-packages]
 
