@@ -1,8 +1,7 @@
 from django.urls import path
-from bank_app.views import AutoCompleteList, AllPossibleMatchList, SearchByFieldMatchList
+from bank_app.views import BranchAutoCompleteList, AllPossibleMatchList
 
 urlpatterns = [
     path('branches', AllPossibleMatchList.as_view()),
-    path('branches/autocomplete', AutoCompleteList.as_view()),
-    path('branches/fieldsearch', SearchByFieldMatchList.as_view()),
+    path('branches/autocomplete', BranchAutoCompleteList.as_view()),
 ]
